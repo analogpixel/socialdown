@@ -1,0 +1,74 @@
+{
+  "feed_title": "Clara's Dev Journal",
+  "feed_author": "Clara Nguyen",
+  "avatar": "http://127.0.0.1:8000/static/clara.png",
+
+  "next_page": null,
+  "posts": [
+    {
+      "title": "First Post",
+      "text": "Hi! I'm Clara, a backend developer sharing my journey.",
+      "date": "1756712250",
+      "id": 1
+    },
+    {
+      "title": "Learning Rust",
+      "text": "Trying out Rust for systems programming. Loving the safety features!",
+      "date": "1756838005",
+      "id": 2
+    },
+    {
+      "title": "Reply to Bob",
+      "text": "Your weather app idea sounds awesome, Bob!",
+      "date": "1756963759",
+      "id": 3,
+      "reply_to": ["http://127.0.0.1:8000/static/bob.json", "6"]
+    },
+    {
+      "title": "Database Optimization",
+      "text": "Indexes can drastically speed up queries. Use them wisely.",
+      "date": "1757089501",
+      "id": 4
+    },
+    {
+      "title": "Reply to Alice",
+      "text": "I also recommend 'The Pragmatic Programmer' — great read!",
+      "date": "1757215250",
+      "id": 5,
+      "reply_to": ["http://127.0.0.1:8000/static/alice.json", "9"]
+    },
+    {
+      "title": "Docker Tip",
+      "text": "Use multi-stage builds to keep your images small.",
+      "date": "1757341002",
+      "id": 6
+    },
+    {
+      "title": "Reply to Myself",
+      "text": "Also, Alpine-based images can reduce size even more.",
+      "date": "1757466758",
+      "id": 7,
+      "reply_to": ["http://127.0.0.1:8000/static/clara.json", "6"]
+    },
+    {
+      "title": "Unit Testing",
+      "text": "Write tests before you refactor — it saves headaches.",
+      "date": "1757592504",
+      "id": 8
+    },
+    {
+      "title": "Reply to Bob Again",
+      "text": "Async/await in JS really does make code cleaner.",
+      "date": "1757718259",
+      "id": 9,
+      "reply_to": ["http://127.0.0.1:8000/static/bob.json", "4"]
+    },
+    {
+      "title": "Signing Off",
+      "text": "That’s it for today. Keep learning!",
+      "date": "1757844001",
+      "id": 10
+    }
+  ]
+}
+

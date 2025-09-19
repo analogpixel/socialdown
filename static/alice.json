@@ -1,0 +1,72 @@
+{
+  "feed_title": "Tech Thoughts by Alice",
+  "feed_author": "Alice Johnson",
+  "avatar": "http://127.0.0.1:8000/static/alice.png",
+  "next_page": null,
+
+  "posts": [
+    {
+      "title": "Hello World",
+      "text": "Excited to start sharing my thoughts here!",
+      "date": "1756701123",
+      "id": 1
+    },
+    {
+      "title": "AI Trends",
+      "text": "AI is evolving faster than ever. What are your thoughts?",
+      "date": "1756826885",
+      "id": 2
+    },
+    {
+      "title": "Morning Coffee",
+      "text": "Nothing beats a fresh cup of coffee before coding.",
+      "date": "1756952550",
+      "id": 3
+    },
+    {
+      "title": "Python Tip",
+      "text": "List comprehensions can make your code cleaner and faster.",
+      "date": "1757078321",
+      "id": 4
+    },
+    {
+      "title": "FastAPI Love",
+      "text": "FastAPI is my go-to for building APIs quickly.",
+      "date": "1757204059",
+      "id": 5
+    },
+    {
+      "title": "Reply to Bob",
+      "text": "I totally agree with your point about clean architecture!",
+      "date": "1757329810",
+      "id": 6,
+      "reply_to": ["http://127.0.0.1:8000/static/bob.json", "2"]
+    },
+    {
+      "title": "Weekend Plans",
+      "text": "Planning to hike and disconnect from screens for a while.",
+      "date": "1757455555",
+      "id": 7
+    },
+    {
+      "title": "Book Recommendation",
+      "text": "Just finished 'Clean Code' — highly recommend it!",
+      "date": "1757581302",
+      "id": 8
+    },
+    {
+      "title": "Reply to Myself",
+      "text": "Also, 'The Pragmatic Programmer' is a must-read.",
+      "date": "1757707058",
+      "id": 9,
+      "reply_to": ["http://127.0.0.1:8000/static/alice.json", "8"]
+    },
+    {
+      "title": "Good Night",
+      "text": "Signing off for today. See you tomorrow!",
+      "date": "1757832801",
+      "id": 10
+    }
+  ]
+}
+

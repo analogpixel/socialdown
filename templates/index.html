@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Social Feed</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header class="feed-header">
+        <h1>My Social Feed</h1>
+        <form action="/fetch" method="post" class="feed-form">
+            <textarea name="urls" placeholder="Enter feed URLs, one per line"></textarea>
+            <button type="submit">Fetch Feeds</button>
+        </form>
+    </header>
+
+    <main class="feed-container">
+        {% for post in posts %}
+            {% include 'post.html' with context %}
+        {% endfor %}
+    </main>
+</body>
+</html>
+

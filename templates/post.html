@@ -1,0 +1,27 @@
+<div class="post-card">
+    <div class="post-header">
+        <img src="{{ post.avatar or '/static/default-avatar.png' }}" alt="{{ post.author }}" class="avatar">
+        <div class="post-user-info">
+            <span class="author">{{ post.author }}</span>
+            <span class="timestamp"> {{ post.date }} </span>
+        </div>
+    </div>
+
+    <div class="post-content">
+        <p>{{ post.text }}</p>
+        {% if post.image_url %}
+            <img src="{{ post.image_url }}" alt="Post image" class="post-image">
+        {% endif %}
+    </div>
+
+    {% if post.replies %}
+        <div class="post-replies">
+            {% for reply in post.replies %}
+                <div class="reply">
+                    <strong>{{ reply.author }}</strong> @{{ reply.username }}: {{ reply.text }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
+

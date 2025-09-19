@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+.feed-header {
+    background: white;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.feed-form textarea {
+    padding: 0.5rem;
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.feed-form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    background: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.feed-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.post-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.post-user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.username {
+    color: gray;
+}
+
+.timestamp {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.post-content {
+    margin-top: 0.5rem;
+}
+
+.post-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 0.5rem;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.post-replies {
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    border-left: 2px solid #eee;
+}
+
+.reply {
+    margin-bottom: 0.25rem;
+}
+

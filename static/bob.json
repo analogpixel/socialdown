@@ -1,0 +1,73 @@
+{
+  "feed_title": "Bob's Coding Corner",
+  "feed_author": "Bob Martinez",
+  "avatar": "http://127.0.0.1:8000/static/bob.png",
+
+  "next_page": null,
+  "posts": [
+    {
+      "title": "Welcome Post",
+      "text": "Hey everyone! This is my new tech blog.",
+      "date": "1756774825",
+      "id": 1
+    },
+    {
+      "title": "Clean Architecture",
+      "text": "A good architecture makes projects easier to maintain.",
+      "date": "1756900552",
+      "id": 2
+    },
+    {
+      "title": "Reply to Alice",
+      "text": "Thanks Alice! Glad you agree with my architecture post.",
+      "date": "1757036120",
+      "id": 3,
+      "reply_to": ["http://127.0.0.1:8000/static/alice.json", "6"]
+    },
+    {
+      "title": "JavaScript Tip",
+      "text": "Use async/await to make your async code cleaner.",
+      "date": "1757168457",
+      "id": 4
+    },
+    {
+      "title": "Weekend Coding",
+      "text": "Working on a side project this weekend — stay tuned!",
+      "date": "1757294203",
+      "id": 5
+    },
+    {
+      "title": "Reply to Myself",
+      "text": "Side project update: it's a weather app using FastAPI.",
+      "date": "1757429938",
+      "id": 6,
+      "reply_to": ["http://127.0.0.1:8001/static/bob.json", "5"]
+    },
+    {
+      "title": "Favorite Tools",
+      "text": "VS Code, Git, and Docker are my daily drivers.",
+      "date": "1757555501",
+      "id": 7
+    },
+    {
+      "title": "Reply to Alice Again",
+      "text": "I also love FastAPI — it's so fast to develop with.",
+      "date": "1757681256",
+      "id": 8,
+      "reply_to": ["http://127.0.0.1:8000/static/alice.json", "5"]
+    },
+    {
+      "title": "Daily Motivation",
+      "text": "Code a little every day, and you'll improve steadily.",
+      "date": "1757806999",
+      "id": 9
+    },
+    {
+      "title": "Signing Off",
+      "text": "That's all for today. Happy coding!",
+      "date": "1757932750",
+      "id": 10
+    }
+  ]
+}
+
